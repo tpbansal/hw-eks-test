@@ -1,5 +1,6 @@
 # ---------------------------------------------------------------------------------------------------------------------
 # K8 Deployment and Service - Using K8 provider
+# - Change the Image Tag as per your setup
 # ---------------------------------------------------------------------------------------------------------------------
 
 ## K8 Deployment
@@ -25,7 +26,7 @@ template {
       }
 spec {
         container {
-          image = "170278396916.dkr.ecr.eu-central-1.amazonaws.com/dribing:my-app-hw"
+          image = "<account-id>.dkr.ecr.eu-central-1.amazonaws.com/dribing:my-app-hw"
           name  = "my-app-hw-container"
           port {
             container_port = 80

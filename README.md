@@ -4,17 +4,17 @@ Prerequisites:
 
 - Local Machine: Use brew (MacOS) to install the necessary binaries/packages. For example:
 
-    docker
-    dockermachine
-    awscli
-    terraform
+    - docker
+    - dockermachine
+    - awscli
+    - terraform
 
 - Remote:  
 
-    Access to AWS Cloud Account
-    AWS Account Creds (AWS Access Key ID, Secret Access Key, Secret Token) - Securely managed in ~/.aws/config and/or *.tfvars
-
-    ``` aws sts get-caller-identity ```
+    - Access to AWS Cloud Account
+    - Setup AWS Account Creds (AWS Access Key ID, Secret Access Key, Secret Token) - Securely managed in ~/.aws/config and/or *.tfvars
+    - Verify AWS ID Setup
+        ``` aws sts get-caller-identity ```
 ## Task Requirements
 
     1) Hello World App

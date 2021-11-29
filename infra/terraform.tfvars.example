@@ -1,0 +1,20 @@
+## This would be ideal to store all the variable values
+## This is an example from a side project
+
+# org                    = "sec-aws"
+# tenant                 = "security-cn"
+# environment            = "sandbox"
+# stage                  = "dev"
+# terraform_version      = "Terraform v1.0.4"
+# create_vpc             = true
+# enable_private_subnets = true
+# enable_public_subnets  = true
+# enable_intra_subnets   = true
+# enable_nat_gateway     = false
+# single_nat_gateway     = true
+# create_igw             = true
+# vpc_cidr_block         = "10.2.0.0/18"
+# private_subnets_cidr   = ["10.2.0.0/22", "10.2.4.0/22", ]
+# public_subnets_cidr    = ["10.2.12.0/22"]
+# intra_subnets_cidr     = ["10.2.8.0/22"]
+# create_vpc_endpoints   = true

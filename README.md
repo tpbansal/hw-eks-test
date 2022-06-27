@@ -1,5 +1,5 @@
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=tpbansal&label=Repo%20views&color=0e75b6&style=flat" alt="tpbansal" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=tpbansal/hw-eks-test/&label=Repo%20views&color=0e75b6&style=flat" alt="tpbansal/hw-eks-test" /> </p>
 
 # hw-eks-test
 
